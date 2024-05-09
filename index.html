@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Trello</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="">
+    <script src="https://kit.fontawesome.com/b5f255ec79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css//sidebar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/list.css">
+  </head>
+
+  <body>
+    <div id="main-container">
+
+      <nav id="sidebar" class="sidebar-out">
+        <div class="profile">
+          <h3>Settings</h3>
+        </div>
+        <a class="sidebar-item"><i class="fa-solid fa-house"></i>Boards</a>
+        <a class="sidebar-item"><i class="fa-solid fa-user"></i>Members</a>
+        <a class="sidebar-item"><i class="fa-solid fa-gear"></i>Workspace settings</a>
+        <a class="sidebar-item"><i class="fa-solid fa-table"></i>Table</a>
+        <a class="sidebar-item"><i class="fa-solid fa-calendar-days"></i>Calendar</a>
+      </nav>
+      
+      <div id="board-container">
+
+        <div id="subHeader">
+          <button id="retract-button"><i class="fa-solid fa-arrows-up-to-line fa-rotate-270 fa-lg"></i></button>       
+          <h2>Trello clone</h2>
+        </div>
+
+        <div id="board">
+          <div id="listsArray" class="boardContainer"></div>
+          <div id="list-creator-container">
+            <input type="text" class="newList" placeholder="Add a new list">
+            <button id="list-creator-button"><i class="fa-solid fa-plus fa-lg"></i></button>
+            
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/general.js"></script>
+    <script src="js/injectHtml.js"></script>
+    <script src="js/dragElements.js"></script>
+
+  </body>
+
+</html>

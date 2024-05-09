@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --bg-color: rgb(34, 39, 43);
+  --bg-accent-color: rgb(54, 59, 65);
+  --bg-sidebar-color: rgba(23, 27, 32,0.85);
+  --text-gray-color: rgb(159, 173, 188);
+  --text-white-color: #FFFFFF;
+  --list-bg-color: #101204;
+  --card-bg-color: #22272b;
+
+ 
+}
+
+body {
+  font-family: Roboto, Arial;
+  color: var(--text-gray-color);
+  font-size: 14px;
+  font-weight:normal;
+  background-image: url("../images/fon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-gray-color);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+select {
+  cursor: pointer;
+}
+
+input, select, button {
+  font-family: Roboto, Arial;
+}
